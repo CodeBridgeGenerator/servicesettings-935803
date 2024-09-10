@@ -1,0 +1,26 @@
+[
+  {
+    "name": "onDynaLoader",
+    "subject": "Data Loader Completed",
+    "body": "The Job Id : {{id}}",
+    "variables": ["id"]
+  },
+  {
+    "name": "onCodeVerify",
+    "subject": "Email Verification Code",
+    "body": "<p>Hi {{name}},</p><p><br></p><p><br></p><p>Your email verification is required.</p><p><br></p><p><br></p><p><strong>The Verification Code : {{code}}</strong></p><p><br></p><p><strong><span class=\"ql-cursor\">﻿</span></strong></p><p><br></p><p>This is an automated email.</p>",
+    "variables": ["id"]
+  },
+  {
+    "name": "onUserConfirmation",
+    "subject": "Data Loader Completed",
+    "body": "The Job Id : {{id}}",
+    "variables": ["id"]
+  },
+  {
+    "name": "onWelcomeEmail",
+    "subject": "Data Loader Completed",
+    "body": "The Job Id : {{id}}",
+    "variables": ["id"]
+  }
+]
